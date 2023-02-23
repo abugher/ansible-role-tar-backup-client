@@ -17,3 +17,4 @@ shell_commands:
     chdir:              ''
     creates:            '/etc/escrow_gpg_key_generated.txt'
 
+  - 'escrow'
