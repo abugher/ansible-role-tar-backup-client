@@ -1,3 +1,11 @@
+# OBSOLETE
+
+There are dedicated roles now for `backup-client` and `backup-server`
+with BTRFS providing compression and snapshots.  This role should not be
+used and can be removed.
+
+# Old Notes
+
 pictures et al > tar | xz | gpg > server
 server > gpg | xz | tar > pictures et al
 
